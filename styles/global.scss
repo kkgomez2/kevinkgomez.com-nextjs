@@ -4,6 +4,7 @@
 
 @import url("https://use.typekit.net/skv0qdq.css");
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,900");
+@import url("../public/MyFontsWebfontsKit.css");
 
 $crimson: #942000;
 $peach: #fab3a0;
@@ -48,7 +49,11 @@ img {
 }
 
 .logo {
-  text-shadow: 4px 3px black;
+  text-shadow: 3px 3px black;
+}
+
+.phosphate-pro-solid {
+	font-family: PhosphatePro-Solid;
 }
 
 .myriad-pro-bold {

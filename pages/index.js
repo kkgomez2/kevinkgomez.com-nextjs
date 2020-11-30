@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import MenuItem from "../components/menu-item";
+import DemoReel from "../components/demo-reel"
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="header fixed flex right-0 p-6">
           <div className="flex-col">
             <div className="logo text-white">
-              <div className="text-6xl font-black leading-12.5">
+              <div className="text-6xl font-black phosphate-pro-solid leading-12.5">
                 Kevin K <br /> Gomez
               </div>
               <div className="myriad-pro-bold text-3xl tracking-even-widest -mt-1">
@@ -32,7 +33,12 @@ export default function Home() {
         </div>
 
         <main className="w-screen flex flex-col items-center">
-          <div>
+          <div className="w-1/2">
+            <DemoReel title="commercial">
+            </DemoReel>
+
+            <DemoReel title="character">
+            </DemoReel>
             <h1 className="title">
               THANK GOD{" "}
               <Link href="/posts/first-post">
