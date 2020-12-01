@@ -56,8 +56,19 @@ img {
   text-shadow: 2px 2px white;
 }
 
+.body-title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 700;
+  color: $crimson;
+  text-shadow: 2px 2px white;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+}
+
 .phosphate-pro-solid {
-	font-family: PhosphatePro-Solid;
+  font-family: PhosphatePro-Solid;
 }
 
 .myriad-pro-bold {
@@ -85,7 +96,7 @@ img {
   left: 0;
   height: 100vh;
   width: 330px;
-  background-image: url("../public/images/me_baby.jpg");
+  background-image: url("../public/images/me_baby.jpg"), linear-gradient(#d0d3cc, white);
   background-position: 50% 100%;
   background-repeat: no-repeat;
   position: fixed;
