@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <main className="w-screen flex flex-col items-center py-4">
-          <div className="w-1/2">
+          <div className="w-2/5">
             <div id="demos" className="mb-16">
               <DemoReel title="Commercial"></DemoReel>
 
@@ -43,17 +43,27 @@ export default function Home() {
             <div id="about" className="mb-16">
               <div className="body-title">About Me</div>
               <div>
-                <p>
-                Kevin is represented in Chicago by Stewart Talent.
+                <p className="mb-5">
+                  Represented by{" "}
+                  <a href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men">
+                    Stewart Talent
+                  </a>
+                  .
+                </p>
+                <p className="mb-5">
+                  Kevin K Gomez is a Chicago-based voice actor with years of
+                  experience in voice over, theater, improv comedy, and film. In
+                  the realm of voice over, Kevin has specialized experience in
+                  ADR and commercial work. Clients include Aniplex of America, Sunrights Inc, and Illinois Lottery.
                 </p>
                 <p>
-                Voice-over actor in the Chicago area (represented by Stewart
-                Talent in the area), working in ADR, commercial, and interactive
-                work! I've got years of theater experience under my belt and a
-                mountain of training in VO, improv comedy, and film. When I'm
-                not doing all that, I can be found doodling in every margin of
-                my notebooks, playing exercise video games, and/or attempting
-                Binging with Babish recipes with moderate success.
+                  When he's not doing all that, he can be found doodling in
+                  every margin of his notebooks, playing exercise video games,
+                  and/or attempting{" "}
+                  <a href="https://www.bingingwithbabish.com/recipes/spinachpuffs">
+                    Binging with Babish recipes
+                  </a>{" "}
+                  with moderate success.
                 </p>
               </div>
             </div>
