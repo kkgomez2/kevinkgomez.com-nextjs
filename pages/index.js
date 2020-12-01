@@ -8,13 +8,13 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Kevin K Gomez - Voice Over</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon-96.png" />
       </Head>
 
       <div className="flex flex-row-reverse justify-between">
         <div className="header fixed flex right-0 p-6">
           <div className="flex-col">
-            <div className="logo text-white">
+            <div className="shadow-title text-white">
               <div className="text-6xl font-black phosphate-pro-solid leading-12.5">
                 Kevin K <br /> Gomez
               </div>
