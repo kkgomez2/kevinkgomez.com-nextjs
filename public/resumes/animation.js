@@ -1,4 +1,4 @@
-var animationResume = {
+var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
@@ -19,4 +19,4 @@ var animationResume = {
   ]
 }
 
-export default animationResume;
+export default AnimationResume;

@@ -4,8 +4,8 @@ import MenuItem from "../components/menu-item";
 import DemoReel from "../components/demo-reel";
 import Credits from "../components/credits";
 
-import animationResume from "../public/resumes/animation";
-import interactiveResume from "../public/resumes/interactive";
+import AnimationResume from "../public/resumes/animation";
+import InteractiveResume from "../public/resumes/interactive";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-row-reverse justify-between">
         <div className="header fixed flex right-0 p-6">
           <div className="flex-col">
-            <div className="shadow-title text-white">
+            <div className="shadow-title text-white pb-4">
               <div className="text-6xl font-black phosphate-pro-solid leading-12.5">
                 Kevin K <br /> Gomez
               </div>
@@ -27,10 +27,18 @@ export default function Home() {
               </div>
             </div>
             <div className="menu flex-col">
-              <MenuItem>Demos</MenuItem>
-              <MenuItem>About</MenuItem>
-              <MenuItem>Resume</MenuItem>
-              <MenuItem>Contact</MenuItem>
+              <MenuItem>
+                <a href="#demos">Demos</a>
+              </MenuItem>
+              <MenuItem>
+                <a href="#about">About</a>
+              </MenuItem>
+              <MenuItem>
+                <a href="#resume">Resume</a>
+              </MenuItem>
+              <MenuItem>
+                <a href="#contact">Contact</a>
+              </MenuItem>
             </div>
           </div>
           <div className="headshot"></div>
@@ -77,8 +85,8 @@ export default function Home() {
             <div id="resume" className="pb-10">
               <div className="body-title">Resume</div>
               <div>
-                <Credits resume={animationResume} />
-                <Credits resume={interactiveResume} />
+                <Credits resume={AnimationResume} />
+                <Credits resume={InteractiveResume} />
                 <div className="font-bold text-crimson-c myriad-pro-bold text-lg">
                   Training
                 </div>
@@ -110,7 +118,10 @@ export default function Home() {
                     </div>
                     <ul>
                       <li>iO Chicago - Improv</li>
-                      <li>Kate DeVore - Dialects (RP English, Estuary English, rhotic and non-rhotic American Southern)</li>
+                      <li>
+                        Kate DeVore - Dialects (RP English, Estuary English,
+                        rhotic and non-rhotic American Southern)
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -129,7 +140,13 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <div>Full resume can be found <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf">here</a>.</div>
+                <div>
+                  Full resume can be found{" "}
+                  <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf">
+                    here
+                  </a>
+                  .
+                </div>
               </div>
             </div>
 
@@ -160,12 +177,14 @@ export default function Home() {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center pb-2">
-                  <img
-                    src="/images/icons/iconfinder_email-letter-inbox-send_2203552.svg"
-                    className="fill-crimson w-6"
-                    title="email"
-                    alt="email icon"
-                  ></img>
+                  <a href="mailto:kevinkgomezvo@gmail.com">
+                    <img
+                      src="/images/icons/iconfinder_email-letter-inbox-send_2203552.svg"
+                      className="fill-crimson w-6"
+                      title="email"
+                      alt="email icon"
+                    ></img>
+                  </a>
                   <div className="pl-3">
                     <a href="mailto:kevinkgomezvo@gmail.com">
                       kevinkgomezvo@gmail.com
@@ -173,12 +192,14 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center pb-2">
-                  <img
-                    src="/images/icons/iconfinder_BW_Twitter_glyph_svg_5305170.svg"
-                    className="fill-crimson w-6"
-                    title="Twitter"
-                    alt="Twitter icon"
-                  ></img>
+                  <a href="https://twitter.com/kevinkgomez" target="_blank">
+                    <img
+                      src="/images/icons/iconfinder_BW_Twitter_glyph_svg_5305170.svg"
+                      className="fill-crimson w-6"
+                      title="Twitter"
+                      alt="Twitter icon"
+                    ></img>
+                  </a>
                   <div className="pl-3">
                     <a href="https://twitter.com/kevinkgomez" target="_blank">
                       @kevinkgomez
@@ -186,12 +207,17 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center pb-2">
-                  <img
-                    src="/images/icons/iconfinder_Instagram_glyph_svg_5335781.svg"
-                    className="fill-crimson w-6"
-                    title="Instagram"
-                    alt="Instagram icon"
-                  ></img>
+                  <a
+                    href="https://instagram.com/kevinkgomez.mp3"
+                    target="_blank"
+                  >
+                    <img
+                      src="/images/icons/iconfinder_Instagram_glyph_svg_5335781.svg"
+                      className="fill-crimson w-6"
+                      title="Instagram"
+                      alt="Instagram icon"
+                    ></img>
+                  </a>
                   <div className="pl-3">
                     <a
                       href="https://instagram.com/kevinkgomez.mp3"

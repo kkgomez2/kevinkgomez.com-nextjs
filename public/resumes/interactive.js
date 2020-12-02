@@ -1,4 +1,4 @@
-var interactiveResume = {
+var InteractiveResume = {
   "name": "Interactive",
   "credits": [
     {
@@ -54,4 +54,4 @@ var interactiveResume = {
   ]
 }
 
-export default interactiveResume;
+export default InteractiveResume;

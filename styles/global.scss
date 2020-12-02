@@ -7,7 +7,7 @@
 @import url("../public/MyFontsWebfontsKit.css");
 
 $crimson: #942000;
-$peach: #fab3a0;
+$peach: #F7BFB2;
 $orange: #e05028;
 $green: #009468;
 $teal: #41e0b1;
@@ -20,6 +20,7 @@ body {
   font-family: Heebo, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 * {
