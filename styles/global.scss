@@ -62,7 +62,7 @@ img {
   font-weight: 700;
   color: $crimson;
   text-shadow: 2px 2px white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   text-transform: lowercase;
 }
 
@@ -84,6 +84,10 @@ img {
 
 .text-crimson-c {
   color: $crimson;
+}
+
+.fill-crimson {
+  filter: invert(17%) sepia(33%) saturate(5948%) hue-rotate(2deg) brightness(95%) contrast(102%);
 }
 
 .menu {
