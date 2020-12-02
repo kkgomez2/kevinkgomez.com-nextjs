@@ -129,14 +129,14 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <div>Full resume can be found here.</div>
+                <div>Full resume can be found <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf">here</a>.</div>
               </div>
             </div>
 
             <div id="contact" className="pb-10">
               <div className="body-title">Contact</div>
               <div className="pb-4">
-                <div className="font-bold text-crimson-c myriad-pro-bold pb-4">
+                <div className="font-bold text-crimson-c myriad-pro-bold text-lg pb-4">
                   Representation
                 </div>
                 <div className="flex flex-col">
