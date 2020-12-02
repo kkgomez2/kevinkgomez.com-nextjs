@@ -110,7 +110,7 @@ export default function Home() {
                     </div>
                     <ul>
                       <li>iO Chicago - Improv</li>
-                      <li>Kate DeVore - Dialects </li>
+                      <li>Kate DeVore - Dialects (RP English, Estuary English, rhotic and non-rhotic American Southern)</li>
                     </ul>
                   </div>
                 </div>
@@ -136,14 +136,33 @@ export default function Home() {
             <div id="contact" className="pb-10">
               <div className="body-title">Contact</div>
               <div className="pb-4">
-                If you'd like to get in touch, please don't hesitate to send me
-                an <a href="mailto:kevinkgomezvo@gmail.com">email</a>.
+                <div className="font-bold text-crimson-c myriad-pro-bold pb-4">
+                  Representation
+                </div>
+                <div className="flex flex-col">
+                  <div className="w-2/3 pb-4">
+                    <a href="https://www.stewarttalent.com/" target="_blank">
+                      <img
+                        src="/images/stewart.png"
+                        title="Stewart Talent"
+                        alt="Stewart Talent"
+                      />
+                    </a>
+                  </div>
+                  <a href="mailto:vo@stewarttalent.com">vo@stewarttalent.com</a>
+                  <div>312.943.3131</div>
+                </div>
+              </div>
+              <div className="pb-4">
+                If you'd like to get in touch with me directly, please don't
+                hesitate to send me an{" "}
+                <a href="mailto:kevinkgomezvo@gmail.com">email</a>.
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center pb-2">
                   <img
                     src="/images/icons/iconfinder_email-letter-inbox-send_2203552.svg"
-                    className="fill-crimson w-8"
+                    className="fill-crimson w-6"
                     title="email"
                     alt="email icon"
                   ></img>
@@ -156,7 +175,7 @@ export default function Home() {
                 <div className="flex items-center pb-2">
                   <img
                     src="/images/icons/iconfinder_BW_Twitter_glyph_svg_5305170.svg"
-                    className="fill-crimson w-8"
+                    className="fill-crimson w-6"
                     title="Twitter"
                     alt="Twitter icon"
                   ></img>
@@ -169,7 +188,7 @@ export default function Home() {
                 <div className="flex items-center pb-2">
                   <img
                     src="/images/icons/iconfinder_Instagram_glyph_svg_5335781.svg"
-                    className="fill-crimson w-8"
+                    className="fill-crimson w-6"
                     title="Instagram"
                     alt="Instagram icon"
                   ></img>
