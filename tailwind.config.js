@@ -13,6 +13,10 @@ module.exports = {
       lineHeight: {
         '12': '3rem',
         '12.5': '3.125rem',
+       },
+       zIndex: {
+        '-10': '-10',
+        '-20': '-20'
        }
     }
   },
