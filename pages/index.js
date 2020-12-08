@@ -69,12 +69,12 @@ export default function Home() {
               <div>
                 <Credits resume={AnimationResume} />
                 <Credits resume={InteractiveResume} />
-                <div className="font-bold text-crimson-c myriad-pro-bold text-lg">
+                <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-2">
                   Training
                 </div>
                 <div className="pb-4 flex">
                   <div className="flex flex-col w-1/3">
-                    <div className="font-bold text-crimson-c myriad-pro-bold">
+                    <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Animation
                     </div>
                     <ul>
@@ -86,7 +86,7 @@ export default function Home() {
                     </ul>
                   </div>
                   <div className="flex flex-col w-1/3">
-                    <div className="font-bold text-crimson-c myriad-pro-bold">
+                    <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Commercial
                     </div>
                     <ul>
@@ -95,7 +95,7 @@ export default function Home() {
                     </ul>
                   </div>
                   <div className="flex flex-col w-1/3">
-                    <div className="font-bold text-crimson-c myriad-pro-bold">
+                    <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Skills
                     </div>
                     <ul>
@@ -108,7 +108,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="pb-8">
-                  <div className="font-bold text-crimson-c myriad-pro-bold">
+                  <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                     Home Studio Spec
                   </div>
                   <ul>
@@ -135,7 +135,7 @@ export default function Home() {
             <div id="contact" className="pb-10">
               <div className="body-title">Contact</div>
               <div className="pb-4">
-                <div className="font-bold text-crimson-c myriad-pro-bold text-lg pb-4">
+                <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">
                   Representation
                 </div>
                 <div className="flex flex-col">
