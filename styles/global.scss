@@ -45,8 +45,9 @@ img {
 
 .header-container {
   min-width: 300px;
+  
   @media only screen and (max-width: 1023px) {
-    min-height: 200px;
+    min-height: 7rem;
 	}
 }
 
@@ -62,7 +63,6 @@ img {
 
   @media only screen and (max-width: 1023px) {
     width: 100%;
-    height: 200px;
     background-color: $peach;
     a {
       color: white;
@@ -114,8 +114,24 @@ img {
   filter: invert(17%) sepia(33%) saturate(5948%) hue-rotate(2deg) brightness(95%) contrast(102%);
 }
 
+.fill-white {
+  filter: invert(100%) sepia(4%) saturate(1747%) hue-rotate(254deg) brightness(116%) contrast(100%);
+}
+
 .menu {
   display: flex;
+
+  @media only screen and (max-width: 495px) {
+    display: none;
+	}
+}
+
+.menu-button {
+  display: none;
+
+  @media only screen and (max-width: 495px) {
+    display: flex;
+	}
 }
 
 .headshot-container {

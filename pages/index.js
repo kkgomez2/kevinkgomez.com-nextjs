@@ -215,16 +215,19 @@ export default function Home() {
         </main>
         <div className="header-container">
           <div className="header">
-            <div className="flex flex-row justify-between lg:flex-col p-6 z-10">
-              <div className="shadow-title text-white pb-4">
-                <div className="text-2xl sm:text-6xl sm:leading-12.5 phosphate-pro-solid ">
+            <div className="flex flex-row justify-between p-3 lg:flex-col lg:p-6 z-10">
+              <div className="p-4 lg:p-0 shadow-title text-white whitespace-nowrap">
+                <div className="text-2xl leading-5 lg:text-6xl lg:leading-12.5 phosphate-pro-solid">
                   Kevin K <br /> Gomez
                 </div>
-                <div className="text-md sm:text-3xl tracking-even-widest myriad-pro-bold  -mt-1">
+                <div className="text-md tracking-widest lg:text-3xl lg:tracking-even-widest myriad-pro-bold -mt-1">
                   voice over
                 </div>
               </div>
-              <div className="menu flex-row lg:flex-col">
+              <div className="flex flex-row items-center">
+                <img className="menu-button fill-white" src="images/icons/iconfinder_burger-menu-1_6351905.svg"/>
+              </div>
+              <div className="menu flex-row items-center lg:pt-4 lg:items-start lg:flex-col">
                 <MenuItem>
                   <a href="#demos">Demos</a>
                 </MenuItem>
