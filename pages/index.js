@@ -224,7 +224,7 @@ export default function Home() {
                   voice over
                 </div>
               </div>
-              <div className="flex flex-row items-center">
+              <div className="p-4 lg:p-0 flex flex-row items-center">
                 <img className="menu-button fill-white" src="images/icons/iconfinder_burger-menu-1_6351905.svg"/>
               </div>
               <div className="menu flex-row items-center lg:pt-4 lg:items-start lg:flex-col">
