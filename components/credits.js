@@ -16,8 +16,8 @@ export default function Credits({ resume }) {
           {resume.credits.map((credit, i) => {
             return (
               <tr key={i} className="uppercase text-sm">
-                <td>{credit.title}</td>
-                <td>{credit.role}</td>
+                <td className="pr-10">{credit.title}</td>
+                <td className="pr-10">{credit.role}</td>
                 <td>{credit.production}</td>
               </tr>
             );
