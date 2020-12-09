@@ -12,6 +12,8 @@ $orange: #e05028;
 $green: #009468;
 $teal: #41e0b1;
 
+$headshot-width: 330px;
+
 html,
 body {
   background-color: $peach;
@@ -41,11 +43,32 @@ img {
   display: block;
 }
 
+.header-container {
+  min-width: 300px;
+  
+  @media only screen and (max-width: 1024px) {
+    min-height: 7rem;
+	}
+}
+
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
   background-image: url("../public/images/corner_right.png");
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: right top;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+    background-color: $peach;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+	}
 }
 
 .shadow-title {
@@ -91,18 +114,74 @@ img {
   filter: invert(17%) sepia(33%) saturate(5948%) hue-rotate(2deg) brightness(95%) contrast(102%);
 }
 
-.menu {
-  display: flex;
+.fill-white {
+  filter: invert(100%) sepia(4%) saturate(1747%) hue-rotate(254deg) brightness(116%) contrast(100%);
 }
 
-.headshot {
+
+.menu {
+  display: flex;
+
+  @media only screen and (max-width: 650px) {
+    display: none;
+	}
+}
+
+.menu-dropdown {
+  background-color: $crimson;
+  position: absolute;
+  top: 130px;
+  right: 0;
+}
+
+.menu-button {
+  display: none;
+
+  @media only screen and (max-width: 650px) {
+    display: flex;
+	}
+}
+
+.headshot-container {
+  min-width: $headshot-width;
+
+  @media only screen and (max-width: 1024px) {
+    min-width: 0;
+	}
+}
+
+.headshot-image {
+  height: 100vh;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 330px;
+  position: fixed;
   background-image: url("../public/images/me_baby.jpg"), linear-gradient(#d0d3cc, white);
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  position: fixed;
+  width: $headshot-width;
   background-size: 380%;
+
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+
+  @media only screen and (min-height: 750px) {
+    background-size: 450%;
+  }
+
+  @media only screen and (min-height: 900px) {
+    background-size: 550%;
+  }
+  
+  @media only screen and (min-height: 1100px) {
+    background-size: 630%;
+  }
+}
+
+.aboutme-image {
+  display: none;
+
+  @media only screen and (max-width: 1024px) {
+    display: inline;
+	}
 }
