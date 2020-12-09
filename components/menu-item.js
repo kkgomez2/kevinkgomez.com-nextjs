@@ -11,11 +11,10 @@ const scrollToTargetAdjusted = (menuId) => {
   var elementPosition = elementRect - bodyRect;
   var offsetPosition = elementPosition - headerOffset;
 
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: "smooth",
-    });
-  console.log(menuId);
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth",
+  });
 };
 
 const MenuItem = ({ menuId, children }) => {

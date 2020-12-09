@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MenuItem from "../components/menu-item";
+import Menu from "../components/menu";
 import DemoReel from "../components/demo-reel";
 import Credits from "../components/credits";
 
@@ -10,7 +10,6 @@ import { useEffect } from "react";
 import smoothscroll from "smoothscroll-polyfill";
 
 export default function Home() {
-
   useEffect(() => {
     smoothscroll.polyfill();
   }, []);
@@ -79,8 +78,8 @@ export default function Home() {
                 <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-2">
                   Training
                 </div>
-                <div className="pb-4 flex">
-                  <div className="flex flex-col w-1/3">
+                <div className="pb-4 flex flex-col lg:flex-row">
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/3">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Animation
                     </div>
@@ -92,7 +91,7 @@ export default function Home() {
                       <li>Crispin Freeman</li>
                     </ul>
                   </div>
-                  <div className="flex flex-col w-1/3">
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/3">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Commercial
                     </div>
@@ -101,7 +100,7 @@ export default function Home() {
                       <li>Jeff Lupetin</li>
                     </ul>
                   </div>
-                  <div className="flex flex-col w-1/3">
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/3">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Skills
                     </div>
@@ -114,21 +113,6 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <div className="pb-8">
-                  <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
-                    Home Studio Spec
-                  </div>
-                  <ul>
-                    <li>Neumann TLM 103 XLR Microphone</li>
-                    <li>
-                      Focusrite Scarlett Solo (2nd Gen) USB Audio Interface
-                    </li>
-                    <li>Adobe Audition CC</li>
-                    <li>
-                      Available for remote recording (Source-Connect ready).
-                    </li>
-                  </ul>
-                </div>
                 <div>
                   Full resume can be found{" "}
                   <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf">
@@ -137,6 +121,16 @@ export default function Home() {
                   .
                 </div>
               </div>
+            </div>
+
+            <div id="homespec" className="pb-10">
+              <div className="body-title">Home Studio Spec</div>
+              <ul>
+                <li>Neumann TLM 103 XLR Microphone</li>
+                <li>Focusrite Scarlett Solo (2nd Gen) USB Audio Interface</li>
+                <li>Adobe Audition CC</li>
+                <li>Available for remote recording (Source-Connect ready).</li>
+              </ul>
             </div>
 
             <div id="contact" className="pb-10">
@@ -231,23 +225,7 @@ export default function Home() {
                   voice over
                 </div>
               </div>
-              <div className="p-4 lg:p-0 flex flex-row items-center">
-                <img className="menu-button fill-white" src="images/icons/iconfinder_burger-menu-1_6351905.svg"/>
-              </div>
-              <div className="menu flex-row items-center lg:pt-4 lg:items-start lg:flex-col">
-                <MenuItem menuId="demos">
-                  Demos
-                </MenuItem>
-                <MenuItem menuId="about">
-                  About
-                </MenuItem>
-                <MenuItem menuId="resume">
-                  Resume
-                </MenuItem>
-                <MenuItem menuId="contact">
-                  Contact
-                </MenuItem>
-              </div>
+              <Menu />
             </div>
           </div>
         </div>
