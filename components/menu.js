@@ -8,7 +8,7 @@ export default function Menu({}) {
     <div className="flex flex-row items-center">
       <div className="p-4 lg:p-0" onClick={() => setShowMenu(!showMenu)}>
         <img
-          className="menu-button fill-white"
+          className="menu-button fill-white cursor-pointer"
           src="images/icons/iconfinder_burger-menu-1_6351905.svg"
         />
       </div>
