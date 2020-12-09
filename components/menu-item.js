@@ -20,7 +20,7 @@ const scrollToTargetAdjusted = (menuId) => {
 const MenuItem = ({ menuId, children }) => {
   return (
     <div className="text-base lowercase px-3 lg:px-0 lg:py-3">
-      <a onClick={() => scrollToTargetAdjusted(menuId)}>{children}</a>
+      <a className="cursor-pointer" onClick={() => scrollToTargetAdjusted(menuId)}>{children}</a>
     </div>
   );
 };
