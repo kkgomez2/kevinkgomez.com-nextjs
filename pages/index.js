@@ -214,7 +214,7 @@ export default function Home() {
           </div>
         </main>
         <div className="header-container">
-          <div className="header">
+          <div id="header" className="header">
             <div className="flex flex-row justify-between p-3 lg:flex-col lg:p-6 z-10">
               <div className="p-4 lg:p-0 shadow-title text-white whitespace-nowrap">
                 <div className="text-2xl leading-5 lg:text-6xl lg:leading-12.5 phosphate-pro-solid">
@@ -228,17 +228,17 @@ export default function Home() {
                 <img className="menu-button fill-white" src="images/icons/iconfinder_burger-menu-1_6351905.svg"/>
               </div>
               <div className="menu flex-row items-center lg:pt-4 lg:items-start lg:flex-col">
-                <MenuItem>
-                  <a href="#demos">Demos</a>
+                <MenuItem menuId="demos">
+                  Demos
                 </MenuItem>
-                <MenuItem>
-                  <a href="#about">About</a>
+                <MenuItem menuId="about">
+                  About
                 </MenuItem>
-                <MenuItem>
-                  <a href="#resume">Resume</a>
+                <MenuItem menuId="resume">
+                  Resume
                 </MenuItem>
-                <MenuItem>
-                  <a href="#contact">Contact</a>
+                <MenuItem menuId="contact">
+                  Contact
                 </MenuItem>
               </div>
             </div>
