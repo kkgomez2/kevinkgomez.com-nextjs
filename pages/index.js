@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import MenuItem from "../components/menu-item";
 import DemoReel from "../components/demo-reel";
 import Credits from "../components/credits";
@@ -7,7 +6,15 @@ import Credits from "../components/credits";
 import AnimationResume from "../public/resumes/animation";
 import InteractiveResume from "../public/resumes/interactive";
 
+import { useEffect } from "react";
+import smoothscroll from "smoothscroll-polyfill";
+
 export default function Home() {
+
+  useEffect(() => {
+    smoothscroll.polyfill();
+  }, []);
+
   return (
     <div className="">
       <Head>

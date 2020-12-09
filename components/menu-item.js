@@ -1,10 +1,10 @@
 const scrollToTargetAdjusted = (menuId) => {
   var element = document.getElementById(menuId);
-  
+
   var header = document.getElementById("header");
   var headerHeight = header.offsetHeight;
   var headerWidth = header.offsetWidth;
-  var headerOffset = headerWidth > headerHeight ? headerHeight : 0;
+  var headerOffset = headerWidth > headerHeight ? headerHeight + 20 : 20;
 
   var bodyRect = document.body.getBoundingClientRect().top;
   var elementRect = element.getBoundingClientRect().top;
