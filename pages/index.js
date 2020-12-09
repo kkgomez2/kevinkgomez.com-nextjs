@@ -45,7 +45,7 @@ export default function Home() {
                 </div>
                 <p className="mb-5">
                   Represented by{" "}
-                  <a href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men">
+                  <a href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men" target="_blank">
                     Stewart Talent
                   </a>
                   .
@@ -62,7 +62,7 @@ export default function Home() {
                   When he's not doing all that, he can be found doodling in
                   every margin of his notebooks, playing exercise video games,
                   and/or attempting{" "}
-                  <a href="https://www.bingingwithbabish.com/recipes/spinachpuffs">
+                  <a href="https://www.bingingwithbabish.com/recipes/spinachpuffs" target="_blank">
                     Binging with Babish recipes
                   </a>{" "}
                   with moderate success.
@@ -115,7 +115,7 @@ export default function Home() {
                 </div>
                 <div>
                   Full resume can be found{" "}
-                  <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf">
+                  <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf" target="_blank">
                     here
                   </a>
                   .
