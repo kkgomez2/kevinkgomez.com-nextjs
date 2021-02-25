@@ -55,7 +55,7 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work. Clients
-                  include Aniplex of America, Sunrights Inc, and Illinois
+                  include Aniplex of America, ADK Emotions NY Inc, and Illinois
                   Lottery.
                 </p>
                 <p>
