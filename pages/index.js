@@ -28,13 +28,13 @@ export default function Home() {
 
         <main className="flex flex-col items-center py-4 z-0">
           <div className="w-4/5">
-            <div id="demos" className="pb-10">
+            <div id="demos" className="pb-8">
               <DemoReel title="Commercial" />
 
               <DemoReel title="Character" />
             </div>
 
-            <div id="about" className="pb-10">
+            <div id="about" className="pb-8">
               <div className="body-title">About Me</div>
               <div>
                 <div>
@@ -70,7 +70,18 @@ export default function Home() {
               </div>
             </div>
 
-            <div id="resume" className="pb-10">
+            <div id="homespec" className="pb-8">
+              <div className="body-title">Home Studio Spec</div>
+              <ul>
+                <li>Available for remote recording</li>
+                <li>Neumann TLM 103 XLR Microphone</li>
+                <li>Focusrite Scarlett Solo (2nd Gen) USB Audio Interface</li>
+                <li>Adobe Audition CC</li>
+                <li>Source-Connect Standard and Now</li>
+              </ul>
+            </div>
+
+            <div id="resume" className="pb-8">
               <div className="body-title">Resume</div>
               <div>
                 <Credits resume={AnimationResume} />
@@ -123,17 +134,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div id="homespec" className="pb-10">
-              <div className="body-title">Home Studio Spec</div>
-              <ul>
-                <li>Neumann TLM 103 XLR Microphone</li>
-                <li>Focusrite Scarlett Solo (2nd Gen) USB Audio Interface</li>
-                <li>Adobe Audition CC</li>
-                <li>Available for remote recording (Source-Connect ready).</li>
-              </ul>
-            </div>
-
-            <div id="contact" className="pb-10">
+            <div id="contact" className="pb-8">
               <div className="body-title">Contact</div>
               <div className="pb-4">
                 <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">
