@@ -115,7 +115,7 @@ export default function Home() {
                 </div>
                 <div>
                   Full resume can be found{" "}
-                  <a href="/resumes/Kevin Gomez Actors Resume (2020).pdf" target="_blank">
+                  <a href="/resumes/Kevin Gomez Actors Resume (2021).pdf" target="_blank">
                     here
                   </a>
                   .

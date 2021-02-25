@@ -2,6 +2,11 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Beyblade Burst Surge",
+      "role": "Rantaro Kiyama",
+      "production": "ADK Emotions NY Inc, Disney XD"
+    },
+    {
       "title": "March comes in like a Lion",
       "role": "Shogi Player, Additional Voices",
       "production": "Aniplex of America"
@@ -9,7 +14,7 @@ var AnimationResume = {
     {
       "title": "Beyblade Burst Turbo",
       "role": "Additional Voices",
-      "production": "Disney XD, Sunrights Inc."
+      "production": "Sunrights Inc, Disney XD"
     },
     {
       "title": "Educational Material",
