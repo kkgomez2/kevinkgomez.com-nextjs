@@ -2,6 +2,11 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "The Legend of Hei",
+      "role": "Brush Tiger, Additional Voices",
+      "production": "Shout! Studios"
+    },
+    {
       "title": "Beyblade Burst Surge",
       "role": "Rantaro Kiyama",
       "production": "ADK Emotions NY Inc, Disney XD"
