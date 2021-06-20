@@ -2,6 +2,11 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Kemono Jihen",
+      "role": "Nobimaru",
+      "production": "Funimation"
+    },
+    {
       "title": "The Legend of Hei",
       "role": "Brush Tiger, Additional Voices",
       "production": "Shout! Studios"
