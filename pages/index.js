@@ -44,7 +44,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-5">
-                  Represented by{" "}
+                  Represented for commercial work by{" "}
                   <a href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men" target="_blank">
                     Stewart Talent
                   </a>
@@ -141,7 +141,8 @@ export default function Home() {
                   Representation
                 </div>
                 <div className="flex flex-col">
-                  <div className="w-2/3 pb-4">
+                  <div className="pb-4">For Commercial Work:</div>
+                  <div className="w-1/3 pb-4">
                     <a href="https://www.stewarttalent.com/" target="_blank">
                       <img
                         src="/images/stewart.png"
