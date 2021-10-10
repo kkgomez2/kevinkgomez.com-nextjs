@@ -160,26 +160,39 @@ tr {
   top: 0;
   left: 0;
   position: fixed;
-  background-image: url("../public/images/me_baby.jpg"), linear-gradient(#d0d3cc, white);
-  background-position: 50% 100%;
+  background-image: url("../public/images/new_me_baby.jpg"), linear-gradient(#8c5738, #9d6447);
+  background-position: 62% 100%;
   background-repeat: no-repeat;
   width: $headshot-width;
-  background-size: 380%;
+  background-size: 135%;
 
   @media only screen and (max-width: 1024px) {
     display: none;
   }
 
+  @media only screen and (min-height: 600px) {
+    background-size: 165%;
+  }
+
   @media only screen and (min-height: 750px) {
-    background-size: 450%;
+    background-size: 190%;
   }
 
   @media only screen and (min-height: 900px) {
-    background-size: 550%;
+    background-size: 220%;
+  }
+
+  @media only screen and (min-height: 1000px) {
+    background-size: 245%;
   }
   
   @media only screen and (min-height: 1100px) {
-    background-size: 630%;
+    background-size: 298%;
+  }
+
+  @media only screen and (min-height: 1400px) {
+    background-size: 330%;
+    background-position: 50% 100%;
   }
 }
 

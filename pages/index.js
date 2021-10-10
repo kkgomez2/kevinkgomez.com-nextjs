@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Menu from "../components/menu";
 import DemoReel from "../components/demo-reel";
+import VisualReel from "../components/visual-reel";
 import Credits from "../components/credits";
 
 import AnimationResume from "../public/resumes/animation";
@@ -29,6 +30,8 @@ export default function Home() {
         <main className="flex flex-col items-center py-4 z-0">
           <div className="w-4/5">
             <div id="demos" className="pb-8">
+              <VisualReel />
+
               <DemoReel title="Commercial" />
 
               <DemoReel title="Character" />
@@ -39,8 +42,8 @@ export default function Home() {
               <div>
                 <div>
                   <img
-                    className="aboutme-image mb-5"
-                    src="images/me_baby.jpg"
+                    className="aboutme-image mb-5 max-h-96"
+                    src="images/new_me_baby.jpg"
                   />
                 </div>
                 <p className="mb-5">
