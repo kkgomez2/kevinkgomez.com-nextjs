@@ -2,6 +2,21 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Higurashi: When They Cry - SOTSU",
+      "role": "Additional Voices",
+      "production": "Funimation"
+    },    
+    {
+      "title": "2.43: Seiin High School Boys Volleyball Team",
+      "role": "Additional Voices",
+      "production": "Funimation"
+    },
+    {
+      "title": "Akudama Drive (Director's Cut)",
+      "role": "Additional Voices",
+      "production": "Funimation"
+    },
+    {
       "title": "Kemono Jihen",
       "role": "Nobimaru",
       "production": "Funimation"
