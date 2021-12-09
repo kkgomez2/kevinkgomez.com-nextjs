@@ -2,6 +2,21 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Beyblade Burst Surge",
+      "role": "Rantaro Kiyama",
+      "production": "ADK Emotions NY Inc, Disney XD"
+    },
+    {
+      "title": "Kemono Jihen",
+      "role": "Nobimaru",
+      "production": "Funimation"
+    },
+    {
+      "title": "Lupin the III vs. Detective Conan",
+      "role": "Bartender",
+      "production": "Discotek Media"
+    },    
+    {
       "title": "Higurashi: When They Cry - SOTSU",
       "role": "Additional Voices",
       "production": "Funimation"
@@ -17,19 +32,9 @@ var AnimationResume = {
       "production": "Funimation"
     },
     {
-      "title": "Kemono Jihen",
-      "role": "Nobimaru",
-      "production": "Funimation"
-    },
-    {
       "title": "The Legend of Hei",
       "role": "Brush Tiger, Additional Voices",
       "production": "Shout! Studios"
-    },
-    {
-      "title": "Beyblade Burst Surge",
-      "role": "Rantaro Kiyama",
-      "production": "ADK Emotions NY Inc, Disney XD"
     },
     {
       "title": "March comes in like a Lion",

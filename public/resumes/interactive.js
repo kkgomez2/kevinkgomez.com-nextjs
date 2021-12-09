@@ -2,6 +2,11 @@ var InteractiveResume = {
   "name": "Interactive",
   "credits": [
     {
+      "title": "Yu-Gi-Oh! RUSH DUEL: Dawn of the Battle Royale!!",
+      "role": "Toombs",
+      "production": "Konami"
+    },
+    {
       "title": "Angelic Waves",
       "role": "Nathan Brooks",
       "production": "Bus Arrows Studios"

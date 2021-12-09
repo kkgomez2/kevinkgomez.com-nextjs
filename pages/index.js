@@ -48,7 +48,10 @@ export default function Home() {
                 </div>
                 <p className="mb-5">
                   Represented for commercial work by{" "}
-                  <a href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men" target="_blank">
+                  <a
+                    href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men"
+                    target="_blank"
+                  >
                     Stewart Talent
                   </a>
                   .
@@ -58,14 +61,17 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work. Clients
-                  include Aniplex of America, ADK Emotions NY Inc, and Illinois
-                  Lottery.
+                  include Aniplex of America, Konami, Funimation, ADK Emotions
+                  NY Inc, and Illinois Lottery.
                 </p>
                 <p>
                   When he's not doing all that, he can be found doodling in
                   every margin of his notebooks, playing exercise video games,
                   and/or attempting{" "}
-                  <a href="https://www.bingingwithbabish.com/recipes/spinachpuffs" target="_blank">
+                  <a
+                    href="https://www.bingingwithbabish.com/recipes/spinachpuffs"
+                    target="_blank"
+                  >
                     Binging with Babish recipes
                   </a>{" "}
                   with moderate success.
@@ -129,7 +135,10 @@ export default function Home() {
                 </div>
                 <div>
                   Full resume can be found{" "}
-                  <a href="/resumes/Kevin Gomez Actors Resume (2021).pdf" target="_blank">
+                  <a
+                    href="/resumes/Kevin Gomez Actors Resume (2021).pdf"
+                    target="_blank"
+                  >
                     here
                   </a>
                   .
