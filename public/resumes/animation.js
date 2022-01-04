@@ -12,6 +12,16 @@ var AnimationResume = {
       "production": "Funimation"
     },
     {
+      "title": "Seirei Gensouki: Spirit Chronicles",
+      "role": "Alphonse Rodan",
+      "production": "Crunchyroll"
+    },
+    {
+      "title": "The Legend of Hei",
+      "role": "Brush Tiger, Additional Voices",
+      "production": "Shout! Studios"
+    },
+    {
       "title": "Lupin the III vs. Detective Conan",
       "role": "Bartender",
       "production": "Discotek Media"
@@ -30,11 +40,6 @@ var AnimationResume = {
       "title": "Akudama Drive (Director's Cut)",
       "role": "Additional Voices",
       "production": "Funimation"
-    },
-    {
-      "title": "The Legend of Hei",
-      "role": "Brush Tiger, Additional Voices",
-      "production": "Shout! Studios"
     },
     {
       "title": "March comes in like a Lion",
