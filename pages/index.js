@@ -150,10 +150,10 @@ export default function Home() {
               <div className="body-title">Contact</div>
               <div className="pb-4">
                 <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">
-                  Representation
+                  Agents
                 </div>
                 <div className="flex flex-col">
-                  <div className="pb-4">For Commercial Work:</div>
+                  <div className="pb-4">Chicago Representation:</div>
                   <div className="w-1/3 pb-4">
                     <a href="https://www.stewarttalent.com/" target="_blank">
                       <img
