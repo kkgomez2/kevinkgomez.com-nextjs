@@ -61,8 +61,8 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work. Clients
-                  include Aniplex of America, Konami, Funimation, ADK Emotions
-                  NY Inc, and Illinois Lottery.
+                  include The Pokémon Company, Konami, Crunchyroll/Funimation,
+                  Aniplex of America, ADK Emotions NY Inc, and Illinois Lottery.
                 </p>
                 <p>
                   When he's not doing all that, he can be found doodling in
@@ -84,9 +84,9 @@ export default function Home() {
               <ul>
                 <li>Available for remote recording</li>
                 <li>Neumann TLM 103 XLR Microphone</li>
-                <li>Focusrite Scarlett Solo (2nd Gen) USB Audio Interface</li>
+                <li>SSL2 Audio Interface</li>
                 <li>Adobe Audition CC</li>
-                <li>Source-Connect Standard and Now</li>
+                <li>Source-Connect Now and Standard Capable</li>
               </ul>
             </div>
 

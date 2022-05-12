@@ -2,6 +2,11 @@ var InteractiveResume = {
   "name": "Interactive",
   "credits": [
     {
+      "title": "Pokémon Masters EX",
+      "role": "Aaron",
+      "production": "DeNA, The Pokémon Company"
+    },
+    {
       "title": "Yu-Gi-Oh! RUSH DUEL: Dawn of the Battle Royale!!",
       "role": "Toombs",
       "production": "Konami"
@@ -29,22 +34,26 @@ var InteractiveResume = {
     {
       "title": "A Bloody Party",
       "role": "William",
-      "production": "Michaela Laws"
+      "production": "Michaela Laws",
+      "display": false
     },
     {
       "title": "Caladria Chronicles",
       "role": "Kyuutarou",
-      "production": "Starlight Visual"
+      "production": "Starlight Visual",
+      "display": false
     },
     {
       "title": "Magical Warrior Diamond Heart",
       "role": "Opal",
-      "production": "Pyonkotchi"
+      "production": "Pyonkotchi",
+      "display": false
     },
     {
       "title": "The Bragger's Club",
       "role": "Joseph",
-      "production": "Michaela Laws"
+      "production": "Michaela Laws",
+      "display": false
     },
     {
       "title": "Overload",

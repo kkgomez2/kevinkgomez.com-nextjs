@@ -14,13 +14,15 @@ export default function Credits({ resume }) {
         </thead>
         <tbody>
           {resume.credits.map((credit, i) => {
-            return (
-              <tr key={i} className="uppercase text-sm">
-                <td className="pr-10">{credit.title}</td>
-                <td className="pr-10">{credit.role}</td>
-                <td>{credit.production}</td>
-              </tr>
-            );
+            if (credit.display !== false) {
+              return (
+                <tr key={i} className="uppercase text-sm">
+                  <td className="pr-10">{credit.title}</td>
+                  <td className="pr-10">{credit.role}</td>
+                  <td>{credit.production}</td>
+                </tr>
+              );
+            }
           })}
         </tbody>
       </table>

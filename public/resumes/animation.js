@@ -18,24 +18,25 @@ var AnimationResume = {
     },
     {
       "title": "The Legend of Hei",
-      "role": "Brush Tiger, Additional Voices",
+      "role": "Brush Tiger",
       "production": "Shout! Studios"
+    },
+    {
+      "title": "2.43: Seiin High School Boys Volleyball Team",
+      "role": "Kou Ikawa",
+      "production": "Funimation"
     },
     {
       "title": "Lupin the III vs. Detective Conan",
       "role": "Bartender",
       "production": "Discotek Media"
-    },    
+    },
     {
       "title": "Higurashi: When They Cry - SOTSU",
       "role": "Additional Voices",
-      "production": "Funimation"
+      "production": "Funimation",
+      "display": false
     },    
-    {
-      "title": "2.43: Seiin High School Boys Volleyball Team",
-      "role": "Additional Voices",
-      "production": "Funimation"
-    },
     {
       "title": "Akudama Drive (Director's Cut)",
       "role": "Additional Voices",
@@ -54,7 +55,8 @@ var AnimationResume = {
     {
       "title": "Educational Material",
       "role": "Students, Additional Voices",
-      "production": "University Of Illinois"
+      "production": "University Of Illinois",
+      "display": false
     }
   ]
 }
