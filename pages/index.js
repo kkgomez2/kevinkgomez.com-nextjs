@@ -47,16 +47,6 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-5">
-                  Represented for commercial work by{" "}
-                  <a
-                    href="https://www.stewarttalent.com/profile/kevin-gomez-chicago-voiceover-commercial-men"
-                    target="_blank"
-                  >
-                    Stewart Talent
-                  </a>
-                  .
-                </p>
-                <p className="mb-5">
                   Kevin K Gomez is a Chicago-based voice actor of Filipino
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
