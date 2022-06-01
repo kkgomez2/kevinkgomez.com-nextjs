@@ -20,6 +20,15 @@ export default function Home() {
       <Head>
         <title>Kevin K Gomez - voice over</title>
         <link rel="icon" href="/images/favicon-96.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@kevinkgomez" />
+        <meta name="twitter:title" content="Kevin K Gomez - voice over" />
+        <meta
+          name="twitter:description"
+          content="Kevin K Gomez is a Chicago-based voice actor of Filipino
+                  descent with years of experience in voice over, theater,
+                  improv comedy, and film."
+        />
       </Head>
 
       <div className="flex flex-col-reverse lg:flex-row justify-between">
