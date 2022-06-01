@@ -29,6 +29,7 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film."
         />
+        <meta name="twitter:image" content="../public/images/new_me_baby.jpg" />
       </Head>
 
       <div className="flex flex-col-reverse lg:flex-row justify-between">
