@@ -17,8 +17,8 @@ export default function Credits({ resume }) {
             if (credit.display !== false) {
               return (
                 <tr key={i} className="uppercase text-sm">
-                  <td className="pr-10">{credit.title}</td>
-                  <td className="pr-10">{credit.role}</td>
+                  <td>{credit.title}</td>
+                  <td>{credit.role}</td>
                   <td>{credit.production}</td>
                 </tr>
               );
