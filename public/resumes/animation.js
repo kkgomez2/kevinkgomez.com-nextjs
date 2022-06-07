@@ -2,6 +2,11 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Yu-Gi-Oh! SEVENS",
+      "role": "Toombs",
+      "production": "Konami"
+    },
+    {
       "title": "Beyblade Burst Surge",
       "role": "Rantaro Kiyama",
       "production": "ADK Emotions NY Inc, Disney XD"
