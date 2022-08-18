@@ -2,6 +2,11 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Kingdom",
+      "role": "Jie Dao",
+      "production": "Crunchyroll"
+    },
+    {
       "title": "Yu-Gi-Oh! SEVENS",
       "role": "Toombs",
       "production": "Konami"
