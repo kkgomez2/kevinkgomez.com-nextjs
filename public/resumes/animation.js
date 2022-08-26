@@ -2,6 +2,11 @@ var AnimationResume = {
   "name": "Animation/ADR",
   "credits": [
     {
+      "title": "Mickey Mouse Squad",
+      "role": "Guille",
+      "production": "Disney+"
+    },
+    {
       "title": "Kingdom",
       "role": "Jie Dao",
       "production": "Crunchyroll"

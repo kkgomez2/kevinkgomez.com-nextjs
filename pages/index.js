@@ -61,8 +61,8 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work. Clients
-                  include The Pokémon Company, Konami, Crunchyroll/Funimation,
-                  Aniplex of America, ADK Emotions NY Inc, and Illinois Lottery.
+                  include Disney+, The Pokémon Company, Konami, Crunchyroll/Funimation,
+                  Aniplex, Illinois Lottery, and more.
                 </p>
                 <p>
                   When he's not doing all that, he can be found doodling in
