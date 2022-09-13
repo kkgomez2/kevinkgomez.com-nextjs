@@ -53,7 +53,7 @@ export default function Home() {
                 <div>
                   <img
                     className="aboutme-image mb-5 max-h-96"
-                    src="images/new_me_baby.jpg"
+                    src="images/Gomez_Kevin-034-edit_web.jpg"
                   />
                 </div>
                 <p className="mb-5">
