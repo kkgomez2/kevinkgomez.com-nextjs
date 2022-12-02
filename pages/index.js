@@ -104,8 +104,10 @@ export default function Home() {
                       Animation
                     </div>
                     <ul>
+                      <li>Richard Horvitz</li>
                       <li>Charlie Adler</li>
                       <li>David Sobolov</li>
+                      <li>Carrie Keranen</li>
                       <li>Julie Maddalena</li>
                       <li>Tony Oliver</li>
                       <li>Crispin Freeman</li>
