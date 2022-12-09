@@ -2,6 +2,16 @@ var InteractiveResume = {
   "name": "Interactive",
   "credits": [
     {
+      "title": "Phantasy Star Online 2: New Genesis",
+      "role": "Glen",
+      "production": "SEGA"
+    },
+    {
+      "title": "Yu-Gi-Oh! CROSS DUEL",
+      "role": "Strong 19",
+      "production": "Konami"
+    },
+    {
       "title": "Pokémon Masters EX",
       "role": "Aaron",
       "production": "DeNA, The Pokémon Company"
