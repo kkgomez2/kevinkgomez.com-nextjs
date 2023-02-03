@@ -9,7 +9,7 @@ export default function MenuList({ dropdown = false }) {
     >
       <MenuItem menuId="demos">Demos</MenuItem>
       <MenuItem menuId="about">About</MenuItem>
-      <MenuItem menuId="homespec">Home Spec</MenuItem>
+      <MenuItem menuId="homespec">Home Studio Spec</MenuItem>
       <MenuItem menuId="resume">Resume</MenuItem>
       <MenuItem menuId="contact">Contact</MenuItem>
       

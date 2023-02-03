@@ -82,10 +82,11 @@ export default function Home() {
             <div id="homespec" className="pb-8">
               <div className="body-title">Home Studio Spec</div>
               <ul>
-                <li>Available for remote recording</li>
+                <li>Remote capable</li>
                 <li>Neumann TLM 103 XLR Microphone</li>
                 <li>SSL2 Audio Interface</li>
                 <li>Adobe Audition CC</li>
+                <li>MacBook Pro M2 Pro (2023)</li>
                 <li>Source-Connect Now and Standard Capable</li>
               </ul>
             </div>
