@@ -1,79 +1,78 @@
 var AnimationResume = {
-  "name": "Animation/ADR",
-  "credits": [
+  name: "Animation/ADR",
+  credits: [
     {
-      "title": "Mickey Mouse Squad",
-      "role": "Guille",
-      "production": "Disney+"
+      title: "Don't Toy with Me, Miss Nagatoro S2",
+      role: "Man 02-A",
+      production: "Crunchyroll",
     },
     {
-      "title": "Kingdom",
-      "role": "Jie Dao",
-      "production": "Crunchyroll"
+      title: "Mickey Mouse Squad",
+      role: "Guille",
+      production: "Disney+",
     },
     {
-      "title": "Yu-Gi-Oh! SEVENS",
-      "role": "Toombs",
-      "production": "Konami"
+      title: "Kingdom",
+      role: "Jie Dao",
+      production: "Crunchyroll",
     },
     {
-      "title": "Beyblade Burst Surge",
-      "role": "Rantaro Kiyama",
-      "production": "ADK Emotions NY Inc, Disney XD"
+      title: "Yu-Gi-Oh! SEVENS",
+      role: "Toombs",
+      production: "Konami",
     },
     {
-      "title": "Kemono Jihen",
-      "role": "Nobimaru",
-      "production": "Funimation"
+      title: "Seirei Gensouki: Spirit Chronicles",
+      role: "Alphonse Rodan",
+      production: "Crunchyroll",
     },
     {
-      "title": "Seirei Gensouki: Spirit Chronicles",
-      "role": "Alphonse Rodan",
-      "production": "Crunchyroll"
+      title: "Higurashi: When They Cry - SOTSU",
+      role: "Additional Voices",
+      production: "Funimation",
+      display: false,
     },
     {
-      "title": "The Legend of Hei",
-      "role": "Brush Tiger",
-      "production": "Shout! Studios"
+      title: "2.43: Seiin High School Boys Volleyball Team",
+      role: "Kou Ikawa",
+      production: "Funimation",
     },
     {
-      "title": "2.43: Seiin High School Boys Volleyball Team",
-      "role": "Kou Ikawa",
-      "production": "Funimation"
+      title: "Akudama Drive (Director's Cut)",
+      role: "Additional Voices",
+      production: "Funimation",
     },
     {
-      "title": "Lupin the III vs. Detective Conan",
-      "role": "Bartender",
-      "production": "Discotek Media"
+      title: "Kemono Jihen",
+      role: "Nobimaru",
+      production: "Funimation",
     },
     {
-      "title": "Higurashi: When They Cry - SOTSU",
-      "role": "Additional Voices",
-      "production": "Funimation",
-      "display": false
-    },    
-    {
-      "title": "Akudama Drive (Director's Cut)",
-      "role": "Additional Voices",
-      "production": "Funimation"
+      title: "The Legend of Hei",
+      role: "Brush Tiger",
+      production: "Shout! Studios",
     },
     {
-      "title": "March comes in like a Lion",
-      "role": "Shogi Player, Additional Voices",
-      "production": "Aniplex of America"
+      title: "Lupin the III vs. Detective Conan",
+      role: "Bartender",
+      production: "Discotek Media",
     },
     {
-      "title": "Beyblade Burst Turbo",
-      "role": "Additional Voices",
-      "production": "Sunrights Inc, Disney XD"
+      title: "Beyblade Burst Surge",
+      role: "Rantaro Kiyama",
+      production: "ADK Emotions NY Inc, Disney XD",
     },
     {
-      "title": "Educational Material",
-      "role": "Students, Additional Voices",
-      "production": "University Of Illinois",
-      "display": false
+      title: "March comes in like a Lion",
+      role: "Shogi Player, Additional Voices",
+      production: "Aniplex of America",
+    },
+    {
+      title: "Beyblade Burst Turbo",
+      role: "Additional Voices",
+      production: "Sunrights Inc, Disney XD",
     }
-  ]
-}
+  ],
+};
 
 export default AnimationResume;
