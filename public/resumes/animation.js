@@ -6,7 +6,7 @@ var AnimationResume = {
       role: "Man 02-A",
       production: "Crunchyroll",
     },
-    {
+        {
       title: "Mickey Mouse Squad",
       role: "Guille",
       production: "Disney+",
@@ -71,7 +71,13 @@ var AnimationResume = {
       title: "Beyblade Burst Turbo",
       role: "Additional Voices",
       production: "Sunrights Inc, Disney XD",
-    }
+    },
+    {
+      title: "Educational Material",
+      role: "Students, Additional Voices",
+      production: "University Of Illinois",
+      display: false,
+    },
   ],
 };
 
