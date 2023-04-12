@@ -2,6 +2,11 @@ var AnimationResume = {
   name: "Animation/ADR",
   credits: [
     {
+      title: "Ultraman Z",
+      role: "Ultraman Geed",
+      production: "Tsuburaya Productions",
+    },
+    {
       title: "Don't Toy with Me, Miss Nagatoro S2",
       role: "Man 02-A",
       production: "Crunchyroll",
