@@ -3,7 +3,7 @@ var AnimationResume = {
   credits: [
     {
       title: "Ultraman Z",
-      role: "Ultraman Geed",
+      role: "Riku Asakura / Ultraman Geed",
       production: "Tsuburaya Productions",
     },
     {
