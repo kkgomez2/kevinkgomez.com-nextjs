@@ -100,7 +100,7 @@ export default function Home() {
                   Training
                 </div>
                 <div className="pb-4 flex flex-col lg:flex-row">
-                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/2">
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/3">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Animation
                     </div>
@@ -115,14 +115,16 @@ export default function Home() {
                       <li>Crispin Freeman</li>
                     </ul>
                   </div>
-                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/2">
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/3">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Commercial
                     </div>
-                    <ul className="mb-2">
+                    <ul>
                       <li>Bill Holmes</li>
                       <li>Jeff Lupetin</li>
                     </ul>
+                  </div>
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/3">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Skills
                     </div>
