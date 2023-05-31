@@ -108,6 +108,7 @@ export default function Home() {
                       <li>Richard Horvitz</li>
                       <li>Charlie Adler</li>
                       <li>David Sobolov</li>
+                      <li>Mick Wingert</li>
                       <li>Carrie Keranen</li>
                       <li>Julie Maddalena</li>
                       <li>Tony Oliver</li>
@@ -128,10 +129,10 @@ export default function Home() {
                       Skills
                     </div>
                     <ul>
-                      <li>iO Chicago - Improv</li>
+                      <li>Improv Comedy - iO Chicago</li>
                       <li>
-                        Kate DeVore - Dialects (RP English, Estuary English,
-                        rhotic and non-rhotic American Southern)
+                        Dialects - RP English, Estuary English,
+                        rhotic and non-rhotic American Southern (Kate DeVore)
                       </li>
                     </ul>
                   </div>
