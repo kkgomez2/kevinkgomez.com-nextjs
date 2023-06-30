@@ -42,9 +42,9 @@ export default function Home() {
             <div id="demos" className="pb-8">
               <VisualReel />
 
-              <DemoReel title="Commercial" />
+              <DemoReel title="Animation" />
 
-              <DemoReel title="Character" />
+              <DemoReel title="Commercial" />
             </div>
 
             <div id="about" className="pb-8">
