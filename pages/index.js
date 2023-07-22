@@ -44,6 +44,8 @@ export default function Home() {
 
               <DemoReel title="Animation" />
 
+              <DemoReel title="Interactive" />
+
               <DemoReel title="Commercial" />
             </div>
 
