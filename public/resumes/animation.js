@@ -6,11 +6,6 @@ var AnimationResume = {
       role: "Riku Asakura / Ultraman Geed",
       production: "Tsuburaya Productions",
     },
-    {
-      title: "Don't Toy with Me, Miss Nagatoro S2",
-      role: "Man 02-A",
-      production: "Crunchyroll",
-    },
         {
       title: "Mickey Mouse Squad",
       role: "Guille",
@@ -29,6 +24,11 @@ var AnimationResume = {
     {
       title: "Seirei Gensouki: Spirit Chronicles",
       role: "Alphonse Rodan",
+      production: "Crunchyroll",
+    },
+    {
+      title: "Don't Toy with Me, Miss Nagatoro S2",
+      role: "Man 02-A",
       production: "Crunchyroll",
     },
     {

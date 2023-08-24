@@ -109,9 +109,11 @@ export default function Home() {
                     <ul>
                       <li>Richard Horvitz</li>
                       <li>Charlie Adler</li>
+                      <li>Kris Zimmerman-Salter</li>
                       <li>David Sobolov</li>
                       <li>Mick Wingert</li>
                       <li>Carrie Keranen</li>
+                      <li>Darren Dunstan</li>
                       <li>Julie Maddalena</li>
                       <li>Tony Oliver</li>
                       <li>Crispin Freeman</li>
