@@ -63,7 +63,7 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work. Clients
-                  include Disney+, The Pokémon Company, SEGA, Konami, Crunchyroll/Funimation,
+                  include Disney+, White Castle, The Pokémon Company, SEGA, Konami, Crunchyroll/Funimation,
                   Aniplex, Illinois Lottery, and more.
                 </p>
                 <p>
