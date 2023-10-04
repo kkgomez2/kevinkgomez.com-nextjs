@@ -1,6 +1,11 @@
 var InteractiveResume = {
   "name": "Interactive",
   "credits": [
+        {
+      "title": "Disgaea 7: Vows of the Virtueless",
+      "role": "Akuma, Male Warrior",
+      "production": "NIS America"
+    },
     {
       "title": "Phantasy Star Online 2: New Genesis",
       "role": "Glen",
