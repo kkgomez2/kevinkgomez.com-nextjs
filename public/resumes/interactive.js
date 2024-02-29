@@ -1,6 +1,11 @@
 var InteractiveResume = {
   "name": "Interactive",
   "credits": [
+    {
+      "title": "Dragon Ball Z: Kakarot - Goku’S Next Journey",
+      "role": "Additional Voices",
+      "production": "Bandai Namco Entertainment Inc."
+    },
         {
       "title": "Disgaea 7: Vows of the Virtueless",
       "role": "Akuma, Male Warrior",

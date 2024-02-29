@@ -2,6 +2,11 @@ var AnimationResume = {
   name: "Animation/ADR",
   credits: [
     {
+      title: "The Prince of Tennis",
+      role: "Kodama",
+      production: "Crunchyroll",
+    },
+    {
       title: "Ultraman Z",
       role: "Riku Asakura / Ultraman Geed",
       production: "Tsuburaya Productions",
