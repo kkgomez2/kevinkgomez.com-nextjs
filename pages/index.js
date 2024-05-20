@@ -39,7 +39,7 @@ export default function Home() {
 
         <main className="flex flex-col items-center py-4 z-0">
           <div className="w-4/5">
-            <div id="demos" className="pb-8">
+            <div id="demos" className="pb-16">
               <VisualReel />
 
               <DemoReel title="Animation" />
@@ -49,7 +49,7 @@ export default function Home() {
               <DemoReel title="Commercial" />
             </div>
 
-            <div id="about" className="pb-8">
+            <div id="about" className="pb-16">
               <div className="body-title">About Me</div>
               <div>
                 <div>
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div id="homespec" className="pb-8">
+            <div id="homespec" className="pb-16">
               <div className="body-title">Home Studio Spec</div>
               <ul>
                 <li>Remote capable</li>
@@ -93,12 +93,12 @@ export default function Home() {
               </ul>
             </div>
 
-            <div id="resume" className="pb-8">
+            <div id="resume" className="pb-16">
               <div className="body-title">Resume</div>
               <div>
                 <Credits resume={AnimationResume} />
                 <Credits resume={InteractiveResume} />
-                <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-2">
+                <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">
                   Training
                 </div>
                 <div className="pb-4 flex flex-col lg:flex-row">
@@ -152,7 +152,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div id="contact" className="pb-8">
+            <div id="contact" className="pb-16">
               <div className="body-title">Contact</div>
               <div className="pb-4">
                 <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">

@@ -1,7 +1,7 @@
 export default function Credits({ resume }) {
   return (
-    <div className="pb-6">
-      <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-2">
+    <div className="pb-8">
+      <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">
         {resume.name}
       </div>
       <table className="table-fixed">
