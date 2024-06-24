@@ -25,7 +25,7 @@ export default function Home() {
         <meta name="twitter:title" content="Kevin K Gomez - voice over" />
         <meta
           name="twitter:description"
-          content="Kevin K Gomez is a Chicago-based voice actor of Filipino
+          content="Kevin K Gomez is an LA-based voice actor of Filipino
                   descent with years of experience in voice over, theater,
                   improv comedy, and film."
         />
@@ -59,7 +59,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-5">
-                  Kevin K Gomez is a Chicago-based voice actor of Filipino
+                  Kevin K Gomez is an LA-based voice actor of Filipino
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work. Clients
