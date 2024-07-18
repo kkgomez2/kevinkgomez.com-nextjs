@@ -62,8 +62,10 @@ export default function Home() {
                   Kevin K Gomez is an LA-based voice actor of Filipino
                   descent with years of experience in voice over, theater,
                   improv comedy, and film. In the realm of voice over, Kevin has
-                  specialized experience in ADR and commercial work. Clients
-                  include Disney+, White Castle, The Pokémon Company, SEGA, Konami, Crunchyroll/Funimation,
+                  specialized experience in ADR and commercial work.
+                </p>
+                <p className="mb-5">
+                Clients include Disney+, White Castle, Cheez-It, The Pokémon Company, HP, SEGA, Konami, Crunchyroll/Funimation,
                   Aniplex, Illinois Lottery, and more.
                 </p>
                 <p>
