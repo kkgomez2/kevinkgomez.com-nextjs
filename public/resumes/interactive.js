@@ -2,7 +2,7 @@ var InteractiveResume = {
   "name": "Interactive",
   "credits": [
     {
-      "title": "Dragon Ball Z: Kakarot - Goku’S Next Journey",
+      "title": "Dragon Ball Z: Kakarot - Goku’s Next Journey",
       "role": "Additional Voices",
       "production": "Bandai Namco Entertainment Inc."
     },
