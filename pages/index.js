@@ -29,7 +29,10 @@ export default function Home() {
                   descent with years of experience in voice over, theater,
                   improv comedy, and film."
         />
-        <meta name="twitter:image" content="https://kevinkgomez.com/images/twitter_image.png" />
+        <meta
+          name="twitter:image"
+          content="https://kevinkgomez.com/images/twitter_image.png"
+        />
       </Head>
 
       <div className="flex flex-col-reverse lg:flex-row justify-between">
@@ -59,14 +62,15 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-5">
-                  Kevin K Gomez is an LA-based voice actor of Filipino
-                  descent with years of experience in voice over, theater,
-                  improv comedy, and film. In the realm of voice over, Kevin has
+                  Kevin K Gomez is an LA-based voice actor of Filipino descent
+                  with years of experience in voice over, theater, improv
+                  comedy, and film. In the realm of voice over, Kevin has
                   specialized experience in ADR and commercial work.
                 </p>
                 <p className="mb-5">
-                Clients include Disney+, White Castle, Cheez-It, The Pokémon Company, HP, SEGA, Konami, Crunchyroll/Funimation,
-                  Aniplex, Illinois Lottery, and more.
+                  Clients include Disney+, White Castle, Cheez-It, The Pokémon
+                  Company, HP, SEGA, Konami, Crunchyroll/Funimation, Aniplex,
+                  Illinois Lottery, and more.
                 </p>
                 <p>
                   When he's not doing all that, he can be found doodling in
@@ -135,8 +139,14 @@ export default function Home() {
                     <ul>
                       <li>Improv Comedy - iO Chicago</li>
                       <li>
-                        Dialects - RP English, Estuary English,
-                        rhotic and non-rhotic American Southern (Kate DeVore)
+                        Dialects - RP English, German, rhotic American Southern
+                        (Kate DeVore), Filipino (Authentic)
+                        <a
+                          href="https://drive.google.com/drive/folders/1kXfD5DuyOM0DoiqTzpFyMIdAg_1xOl9Q?usp=drive_link"
+                          target="_blank"
+                        >
+                          Samples here
+                        </a>
                       </li>
                     </ul>
                   </div>
