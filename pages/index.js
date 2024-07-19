@@ -140,7 +140,7 @@ export default function Home() {
                       <li>Improv Comedy - iO Chicago</li>
                       <li>
                         Dialects - RP English, German, rhotic American Southern
-                        (Kate DeVore), Filipino (Authentic)
+                        (Kate DeVore), Filipino (Authentic) : 
                         <a
                           href="https://drive.google.com/drive/folders/1kXfD5DuyOM0DoiqTzpFyMIdAg_1xOl9Q?usp=drive_link"
                           target="_blank"
