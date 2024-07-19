@@ -139,13 +139,13 @@ export default function Home() {
                     <ul>
                       <li>Improv Comedy - iO Chicago</li>
                       <li>
-                        Dialects - RP English, German, rhotic American Southern
-                        (Kate DeVore), Filipino (Authentic) : 
+                        Dialects - RP English, German, Rhotic American Southern
+                        (Kate DeVore), Filipino (Authentic)
                         <a
                           href="https://drive.google.com/drive/folders/1kXfD5DuyOM0DoiqTzpFyMIdAg_1xOl9Q?usp=drive_link"
                           target="_blank"
                         >
-                          Samples here
+                          {" "} Samples here
                         </a>
                       </li>
                     </ul>
