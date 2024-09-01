@@ -2,6 +2,11 @@ var InteractiveResume = {
   "name": "Interactive",
   "credits": [
     {
+      "title": "Gundam Breaker 4",
+      "role": "Kind Builder, Student Builder",
+      "production": "Bandai Namco Entertainment Inc."
+    },
+    {
       "title": "Dragon Ball Z: Kakarot - Goku’s Next Journey",
       "role": "Additional Voices",
       "production": "Bandai Namco Entertainment Inc."

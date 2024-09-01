@@ -2,6 +2,11 @@ var AnimationResume = {
   name: "Animation/ADR",
   credits: [
     {
+      title: "That Time I Got Reincarnated As A Slime",
+      role: "Braver",
+      production: "Crunchyroll",
+    },
+    {
       title: "The Prince of Tennis",
       role: "Kodama",
       production: "Crunchyroll",
