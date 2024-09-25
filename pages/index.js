@@ -176,7 +176,7 @@ export default function Home() {
                   <div className="w-1/3 lg:w-1/2 pb-4">
                     <a href="https://www.deanpanarotalent.com/" target="_blank">
                       <img
-                        src="/images/dpt.png"
+                        src="/images/DPT.png"
                         className="agent"
                         title="Dean Panaro Talent"
                         alt="Dean Panaro Talent"
