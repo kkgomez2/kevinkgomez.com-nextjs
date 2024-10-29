@@ -133,6 +133,7 @@ export default function Home() {
                     <ul className="mb-2">
                       <li>Bill Holmes</li>
                       <li>Jeff Lupetin</li>
+                      <li>Terry Berland</li>
                     </ul>
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
                       Skills
