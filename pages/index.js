@@ -110,12 +110,13 @@ export default function Home() {
                 <div className="pb-4 flex flex-col lg:flex-row">
                   <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/2">
                     <div className="font-bold lowercase text-crimson-c myriad-pro-bold">
-                      Animation
+                      Animation / Interactive
                     </div>
                     <ul>
                       <li>Richard Horvitz</li>
                       <li>Charlie Adler</li>
                       <li>Kris Zimmerman-Salter</li>
+                      <li>Andrea Toyias</li>
                       <li>David Sobolov</li>
                       <li>Mick Wingert</li>
                       <li>Carrie Keranen</li>
