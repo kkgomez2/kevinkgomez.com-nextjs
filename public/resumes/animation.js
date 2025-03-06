@@ -2,6 +2,41 @@ var AnimationResume = {
   name: "Animation/ADR",
   credits: [
     {
+      title: "WITCH WATCH",
+      role: "Keigo Magami",
+      production: "Crunchyroll, Netflix, Hulu",
+    },
+    {
+      title: "Yu-Gi-Oh! GO RUSH!!",
+      role: "Mo Toombs",
+      production: "Konami",
+    },
+    {
+      title: "Beyblade Burst Surge",
+      role: "Rantaro Kiyama",
+      production: "ADK Emotions NY Inc, Disney XD",
+    },
+    {
+      title: "Yu-Gi-Oh! SEVENS",
+      role: "Toombs",
+      production: "Konami",
+    },
+    {
+      title: "Ultraman Z",
+      role: "Riku Asakura / Ultraman Geed",
+      production: "Tsuburaya Productions",
+    },
+    {
+      title: "Kemono Jihen",
+      role: "Nobimaru",
+      production: "Funimation",
+    },
+    {
+      title: "Seirei Gensouki: Spirit Chronicles",
+      role: "Alphonse Rodan",
+      production: "Crunchyroll",
+    },
+    {
       title: "That Time I Got Reincarnated As A Slime",
       role: "Braver",
       production: "Crunchyroll",
@@ -11,11 +46,6 @@ var AnimationResume = {
       role: "Kodama",
       production: "Crunchyroll",
     },
-    {
-      title: "Ultraman Z",
-      role: "Riku Asakura / Ultraman Geed",
-      production: "Tsuburaya Productions",
-    },
         {
       title: "Mickey Mouse Squad",
       role: "Guille",
@@ -24,16 +54,6 @@ var AnimationResume = {
     {
       title: "Kingdom",
       role: "Jie Dao",
-      production: "Crunchyroll",
-    },
-    {
-      title: "Yu-Gi-Oh! SEVENS",
-      role: "Toombs",
-      production: "Konami",
-    },
-    {
-      title: "Seirei Gensouki: Spirit Chronicles",
-      role: "Alphonse Rodan",
       production: "Crunchyroll",
     },
     {
@@ -58,11 +78,6 @@ var AnimationResume = {
       production: "Funimation",
     },
     {
-      title: "Kemono Jihen",
-      role: "Nobimaru",
-      production: "Funimation",
-    },
-    {
       title: "The Legend of Hei",
       role: "Brush Tiger",
       production: "Shout! Studios",
@@ -73,11 +88,6 @@ var AnimationResume = {
       production: "Discotek Media",
     },
     {
-      title: "Beyblade Burst Surge",
-      role: "Rantaro Kiyama",
-      production: "ADK Emotions NY Inc, Disney XD",
-    },
-    {
       title: "March comes in like a Lion",
       role: "Shogi Player, Additional Voices",
       production: "Aniplex of America",
@@ -86,13 +96,7 @@ var AnimationResume = {
       title: "Beyblade Burst Turbo",
       role: "Additional Voices",
       production: "Sunrights Inc, Disney XD",
-    },
-    {
-      title: "Educational Material",
-      role: "Students, Additional Voices",
-      production: "University Of Illinois",
-      display: false,
-    },
+    }
   ],
 };
 
