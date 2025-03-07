@@ -21,6 +21,8 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/3cbeae");
   
+@import url("https://use.typekit.net/skv0qdq.css");
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,900");
 @font-face {
   font-family: 'PhosphatePro-Solid';
   src: url('webFonts/PhosphatePro-Solid/font.woff2') format('woff2'), url('webFonts/PhosphatePro-Solid/font.woff') format('woff');
