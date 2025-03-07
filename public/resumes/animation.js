@@ -4,7 +4,7 @@ var AnimationResume = {
     {
       title: "WITCH WATCH",
       role: "Keigo Magami",
-      production: "Crunchyroll, Netflix, Hulu",
+      production: "MBS, Netflix, Hulu",
     },
     {
       title: "Yu-Gi-Oh! GO RUSH!!",
