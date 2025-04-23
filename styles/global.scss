@@ -125,7 +125,7 @@ tr {
 
 .menu {
   display: flex;
-  
+
   @media only screen and (max-width: $small-width-breakpoint) {
     width: 0px;
     opacity: 0;
@@ -134,7 +134,13 @@ tr {
 }
 
 .menu-list {
-  transition: all 0.25s ease-in-out;
+  min-height: 0;
+  transition: all 0.7s ease-in-out;
+
+  @media only screen and (max-width: $small-width-breakpoint) {
+    text-align: end;
+    min-height: 10px;
+	}
 }
 
 .menu-dropdown {
