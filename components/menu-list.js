@@ -3,7 +3,7 @@ import MenuItem from "./menu-item";
 export default function MenuList({ dropdown = false }) {
   return (
     <div
-      className={`${
+      className={`menu-list ${
         dropdown ? "" : "menu"
       } flex-row items-center whitespace-nowrap lg:pt-4 lg:items-start lg:flex-col`}
     >

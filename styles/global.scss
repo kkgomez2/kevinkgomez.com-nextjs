@@ -11,6 +11,7 @@ $teal: #41e0b1;
 $green: #009468;
 
 $headshot-width: 330px;
+$small-width-breakpoint: 670px;
 
 html,
 body {
@@ -125,10 +126,14 @@ tr {
 .menu {
   display: flex;
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: $small-width-breakpoint) {
     display: none;
 	}
 }
+
+// .menu-list {
+//   transition: height 2s ease-in;
+// }
 
 .menu-dropdown {
   background-color: $crimson;
@@ -140,7 +145,7 @@ tr {
 .menu-button {
   display: none;
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: $small-width-breakpoint) {
     display: flex;
 	}
 }
