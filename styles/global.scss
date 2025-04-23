@@ -135,7 +135,7 @@ tr {
 
 .menu-list {
   min-height: 0;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out, height 0.2s ease-in-out;
 
   @media only screen and (max-width: $small-width-breakpoint) {
     text-align: end;
@@ -152,6 +152,7 @@ tr {
 
 .menu-button {
   display: none;
+  transition: all 0.7s ease-in-out;
 
   @media only screen and (max-width: $small-width-breakpoint) {
     display: flex;
