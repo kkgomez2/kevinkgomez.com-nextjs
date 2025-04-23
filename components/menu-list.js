@@ -1,8 +1,19 @@
 import MenuItem from "./menu-item";
+import { useState, useEffect } from "react";
 
 export default function MenuList({ dropdown = false }) {
+  const [height, setHeight] = useState(400);
+
+  useEffect(() => {
+    if (dropdown) {
+      setHeight(130);
+    } else {
+      setHeight(400);
+    }
+  });
+
   return (
-    <div
+    <div style={dropdown ? {height: height} : {}} 
       className={`menu-list ${
         dropdown ? "" : "menu"
       } flex-row items-center whitespace-nowrap lg:pt-4 lg:items-start lg:flex-col`}
