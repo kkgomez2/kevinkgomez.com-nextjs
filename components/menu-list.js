@@ -13,7 +13,8 @@ export default function MenuList({ dropdown = false }) {
   });
 
   return (
-    <div style={dropdown ? {height: height} : {}} 
+    <nav
+      style={dropdown ? { height: height } : {}}
       className={`menu-list ${
         dropdown ? "" : "menu"
       } flex-row items-center whitespace-nowrap lg:pt-4 lg:items-start lg:flex-col`}
@@ -23,7 +24,6 @@ export default function MenuList({ dropdown = false }) {
       <MenuItem menuId="homespec">Home Studio Spec</MenuItem>
       <MenuItem menuId="resume">Resume</MenuItem>
       <MenuItem menuId="contact">Contact</MenuItem>
-      
-    </div>
+    </nav>
   );
 }
