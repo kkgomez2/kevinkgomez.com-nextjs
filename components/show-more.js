@@ -13,7 +13,7 @@ export default function ShowMore({ children }) {
                 height: "369px",
                 overflow: "hidden",
                 marginBottom: "20px",
-                maskImage: "linear-gradient(#000, transparent)",
+                maskImage: "linear-gradient(#000, #000, transparent)",
               }
         }
       >
