@@ -1,96 +1,96 @@
 var InteractiveResume = {
-  "name": "Interactive",
-  "credits": [
+  name: "Interactive",
+  credits: [
     {
-      "title": "Gundam Breaker 4",
-      "role": "Kind Builder, Student Builder",
-      "production": "Bandai Namco Entertainment Inc."
+      title: "Phantasy Star Online 2: New Genesis",
+      role: "Glen",
+      production: "SEGA",
     },
     {
-      "title": "Dragon Ball Z: Kakarot - Goku’s Next Journey",
-      "role": "Additional Voices",
-      "production": "Bandai Namco Entertainment Inc."
-    },
-        {
-      "title": "Disgaea 7: Vows of the Virtueless",
-      "role": "Akuma, Male Warrior",
-      "production": "NIS America"
+      title: "Pokémon Masters EX",
+      role: "Aaron",
+      production: "DeNA, The Pokémon Company",
     },
     {
-      "title": "Phantasy Star Online 2: New Genesis",
-      "role": "Glen",
-      "production": "SEGA"
+      title: "Disgaea 7: Vows of the Virtueless",
+      role: "Akuma, Male Warrior",
+      production: "NIS America",
     },
     {
-      "title": "Yu-Gi-Oh! CROSS DUEL",
-      "role": "Strong 19",
-      "production": "Konami"
+      title: "Gundam Breaker 4",
+      role: "Kind Builder, Student Builder",
+      production: "Bandai Namco Entertainment Inc.",
     },
     {
-      "title": "Pokémon Masters EX",
-      "role": "Aaron",
-      "production": "DeNA, The Pokémon Company"
+      title: "Dragon Ball Z: Kakarot - Goku’s Next Journey",
+      role: "Additional Voices",
+      production: "Bandai Namco Entertainment Inc.",
     },
     {
-      "title": "Yu-Gi-Oh! RUSH DUEL: Dawn of the Battle Royale!!",
-      "role": "Toombs",
-      "production": "Konami"
+      title: "Yu-Gi-Oh! CROSS DUEL",
+      role: "Strong 19",
+      production: "Konami",
     },
     {
-      "title": "Angelic Waves",
-      "role": "Nathan Brooks",
-      "production": "Bus Arrows Studios"
+      title: "Yu-Gi-Oh! RUSH DUEL: Dawn of the Battle Royale!!",
+      role: "Toombs",
+      production: "Konami",
     },
     {
-      "title": "In Blood",
-      "role": "Brenton",
-      "production": "Jaime Scribbles Games"
+      title: "Angelic Waves",
+      role: "Nathan Brooks",
+      production: "Bus Arrows Studios",
     },
     {
-      "title": "Winds Of Change",
-      "role": "Vivien",
-      "production": "Tail Tail Studios"
+      title: "In Blood",
+      role: "Brenton",
+      production: "Jaime Scribbles Games",
     },
     {
-      "title": "Eastshade",
-      "role": "Fedir",
-      "production": "Eastshade Studios"
+      title: "Winds Of Change",
+      role: "Vivien",
+      production: "Tail Tail Studios",
     },
     {
-      "title": "A Bloody Party",
-      "role": "William",
-      "production": "Michaela Laws",
-      "display": false
+      title: "Eastshade",
+      role: "Fedir",
+      production: "Eastshade Studios",
     },
     {
-      "title": "Caladria Chronicles",
-      "role": "Kyuutarou",
-      "production": "Starlight Visual",
-      "display": false
+      title: "A Bloody Party",
+      role: "William",
+      production: "Michaela Laws",
+      display: false,
     },
     {
-      "title": "Magical Warrior Diamond Heart",
-      "role": "Opal",
-      "production": "Pyonkotchi",
-      "display": false
+      title: "Caladria Chronicles",
+      role: "Kyuutarou",
+      production: "Starlight Visual",
+      display: false,
     },
     {
-      "title": "The Bragger's Club",
-      "role": "Joseph",
-      "production": "Michaela Laws",
-      "display": false
+      title: "Magical Warrior Diamond Heart",
+      role: "Opal",
+      production: "Pyonkotchi",
+      display: false,
     },
     {
-      "title": "Overload",
-      "role": "Bai Li",
-      "production": "Revival Productions"
+      title: "The Bragger's Club",
+      role: "Joseph",
+      production: "Michaela Laws",
+      display: false,
     },
     {
-      "title": "Bloody Chronicles",
-      "role": "Xei, Kimfu, Dustin Evans",
-      "production": "Igrasil Studio"
-    }
-  ]
-}
+      title: "Overload",
+      role: "Bai Li",
+      production: "Revival Productions",
+    },
+    {
+      title: "Bloody Chronicles",
+      role: "Xei, Kimfu, Dustin Evans",
+      production: "Igrasil Studio",
+    },
+  ],
+};
 
 export default InteractiveResume;
