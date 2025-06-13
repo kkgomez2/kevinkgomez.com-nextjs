@@ -3,6 +3,7 @@ import Menu from "../components/menu";
 import DemoReel from "../components/demo-reel";
 import VisualReel from "../components/visual-reel";
 import Credits from "../components/credits";
+import ShowMore from "../components/show-more";
 
 import AnimationResume from "../public/resumes/animation";
 import InteractiveResume from "../public/resumes/interactive";
@@ -102,8 +103,12 @@ export default function Home() {
             <div id="resume" className="pb-16">
               <div className="body-title">Resume</div>
               <div>
-                <Credits resume={AnimationResume} />
-                <Credits resume={InteractiveResume} />
+                <ShowMore>
+                  <Credits resume={AnimationResume} />
+                </ShowMore>
+                <ShowMore>
+                  <Credits resume={InteractiveResume} />
+                </ShowMore>
                 <div className="font-bold lowercase text-crimson-c myriad-pro-bold text-lg pb-4">
                   Training
                 </div>
@@ -147,7 +152,8 @@ export default function Home() {
                           href="https://drive.google.com/drive/folders/1kXfD5DuyOM0DoiqTzpFyMIdAg_1xOl9Q?usp=drive_link"
                           target="_blank"
                         >
-                          {" "} Samples here
+                          {" "}
+                          Samples here
                         </a>
                       </li>
                     </ul>
@@ -173,36 +179,43 @@ export default function Home() {
                   Agents
                 </div>
                 <div className="flex flex-col lg:flex-row">
-                <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/2">
-                  <div className="pb-4">Los Angeles Representation:</div>
-                  <div className="w-1/3 lg:w-1/2 pb-4">
-                    <a href="https://www.deanpanarotalent.com/" target="_blank">
-                      <img
-                        src="/images/DPT.png"
-                        className="agent"
-                        title="Dean Panaro Talent"
-                        alt="Dean Panaro Talent"
-                      />
+                  <div className="flex flex-col pb-2 lg:pb-0 lg:w-1/2">
+                    <div className="pb-4">Los Angeles Representation:</div>
+                    <div className="w-1/3 lg:w-1/2 pb-4">
+                      <a
+                        href="https://www.deanpanarotalent.com/"
+                        target="_blank"
+                      >
+                        <img
+                          src="/images/DPT.png"
+                          className="agent"
+                          title="Dean Panaro Talent"
+                          alt="Dean Panaro Talent"
+                        />
+                      </a>
+                    </div>
+                    <a href="mailto:vo@stewarttalent.com">
+                      dean@deanpanarotalent.com
                     </a>
+                    <div>818.660.0633</div>
                   </div>
-                  <a href="mailto:vo@stewarttalent.com">dean@deanpanarotalent.com</a>
-                  <div>818.660.0633</div>
-                </div>
-                <div className="flex flex-col lg:pb-0 lg:w-1/2">
-                  <div className="pb-4">Chicago Representation:</div>
-                  <div className="w-1/2 lg:w-2/3 pb-4">
-                    <a href="https://www.stewarttalent.com/" target="_blank">
-                      <img
-                        src="/images/stewart.png"
-                        className="agent"
-                        title="Stewart Talent"
-                        alt="Stewart Talent"
-                      />
+                  <div className="flex flex-col lg:pb-0 lg:w-1/2">
+                    <div className="pb-4">Chicago Representation:</div>
+                    <div className="w-1/2 lg:w-2/3 pb-4">
+                      <a href="https://www.stewarttalent.com/" target="_blank">
+                        <img
+                          src="/images/stewart.png"
+                          className="agent"
+                          title="Stewart Talent"
+                          alt="Stewart Talent"
+                        />
+                      </a>
+                    </div>
+                    <a href="mailto:vo@stewarttalent.com">
+                      vo@stewarttalent.com
                     </a>
+                    <div>312.943.3131</div>
                   </div>
-                  <a href="mailto:vo@stewarttalent.com">vo@stewarttalent.com</a>
-                  <div>312.943.3131</div>
-                </div>
                 </div>
               </div>
               <div className="pb-4">
