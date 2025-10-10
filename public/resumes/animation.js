@@ -3,7 +3,7 @@ var AnimationResume = {
   credits: [
     {
       title: "WITCH WATCH",
-      role: "Keigo Magami",
+      role: "Keigo Magami / Wolf",
       production: "MBS, Netflix, Hulu",
     },
     {
