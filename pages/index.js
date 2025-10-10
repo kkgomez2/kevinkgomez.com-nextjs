@@ -90,14 +90,20 @@ export default function Home() {
 
             <div id="homespec" className="pb-16">
               <div className="body-title">Home Studio Spec</div>
-              <ul>
-                <li>Remote capable</li>
+              <ul className="pb-4">
                 <li>Neumann TLM 103 XLR Microphone</li>
                 <li>SSL2 Audio Interface</li>
                 <li>Adobe Audition CC</li>
                 <li>MacBook Pro M2 Pro (2023)</li>
-                <li>Source-Connect Now and Standard Capable</li>
+                <li>Source-Connect Now/Nexus and Standard capable</li>
               </ul>
+              <div>
+                Remote ready. You can hear a sample of my home studio{" "}
+                <a href="/audio/KevinKGomez_HomeStudio.wav" target="_blank">
+                  here
+                </a>
+                .
+              </div>
             </div>
 
             <div id="resume" className="pb-16">
