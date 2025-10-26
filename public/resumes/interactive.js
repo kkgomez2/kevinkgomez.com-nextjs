@@ -4,7 +4,7 @@ var InteractiveResume = {
     {
       title: "Zenless Zone Zero",
       role: "Yi",
-      production: "miHoYo"
+      production: "miHoYo",
     },
     {
       title: "Pokémon Masters EX",
@@ -17,9 +17,9 @@ var InteractiveResume = {
       production: "SEGA",
     },
     {
-      title: "Hell Clock",
-      role: "Dr. Nina Rodrigues",
-      production: "Rogue Snail"
+      title: "Yu-Gi-Oh! RUSH DUEL: Dawn of the Battle Royale!!",
+      role: "Toombs",
+      production: "Konami",
     },
     {
       title: "Disgaea 7: Vows of the Virtueless",
@@ -42,9 +42,9 @@ var InteractiveResume = {
       production: "Konami",
     },
     {
-      title: "Yu-Gi-Oh! RUSH DUEL: Dawn of the Battle Royale!!",
-      role: "Toombs",
-      production: "Konami",
+      title: "Hell Clock",
+      role: "Dr. Nina Rodrigues",
+      production: "Rogue Snail",
     },
     {
       title: "Angelic Waves",
