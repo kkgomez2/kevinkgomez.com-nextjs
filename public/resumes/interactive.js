@@ -2,14 +2,24 @@ var InteractiveResume = {
   name: "Interactive",
   credits: [
     {
-      title: "Phantasy Star Online 2: New Genesis",
-      role: "Glen",
-      production: "SEGA",
+      title: "Zenless Zone Zero",
+      role: "Yi",
+      production: "miHoYo"
     },
     {
       title: "Pokémon Masters EX",
       role: "Aaron",
       production: "DeNA, The Pokémon Company",
+    },
+    {
+      title: "Phantasy Star Online 2: New Genesis",
+      role: "Glen",
+      production: "SEGA",
+    },
+    {
+      title: "Hell Clock",
+      role: "Dr. Nina Rodrigues",
+      production: "Rogue Snail"
     },
     {
       title: "Disgaea 7: Vows of the Virtueless",
