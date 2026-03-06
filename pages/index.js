@@ -175,6 +175,16 @@ export default function Home() {
                   </a>
                   .
                 </div>
+                <div>
+                  IMDb page can be found{" "}
+                  <a
+                    href="https://www.imdb.com/name/nm9629663/"
+                    target="_blank"
+                  >
+                    here
+                  </a>
+                  .
+                </div>
               </div>
             </div>
 
@@ -278,6 +288,27 @@ export default function Home() {
                       target="_blank"
                     >
                       kevinkgomez.mp3
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-center pb-2">
+                  <a
+                    href="https://www.imdb.com/name/nm9629663/"
+                    target="_blank"
+                  >
+                    <img
+                      src="/images/icons/imdb-svgrepo-com.svg"
+                      className="fill-crimson w-6"
+                      title="IMDb"
+                      alt="IMDb icon"
+                    ></img>
+                  </a>
+                  <div className="pl-3">
+                    <a
+                      href="https://www.imdb.com/name/nm9629663/"
+                      target="_blank"
+                    >
+                      IMDb
                     </a>
                   </div>
                 </div>
