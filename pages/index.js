@@ -70,7 +70,7 @@ export default function Home() {
                 </p>
                 <p className="mb-5">
                   Clients include Disney+, White Castle, Cheez-It, The Pokémon
-                  Company, HP, SEGA, Konami, Crunchyroll/Funimation, Aniplex,
+                  Company, Tootsie Roll, HP, SEGA, Konami, Crunchyroll/Funimation, Aniplex,
                   Illinois Lottery, and more.
                 </p>
                 <p>

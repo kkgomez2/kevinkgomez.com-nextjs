@@ -2,6 +2,11 @@ var InteractiveResume = {
   name: "Interactive",
   credits: [
     {
+      title: "Masters of the Universe: Legends Unite",
+      role: "Skeletor",
+      production: "Amazon Game Studios",
+    },
+    {
       title: "Zenless Zone Zero",
       role: "Yi",
       production: "miHoYo",
